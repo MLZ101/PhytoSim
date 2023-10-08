@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/PhytoSim/static/css/main.728e7f72.chunk.css",
+    "main.js": "/PhytoSim/static/js/main.dce572a8.chunk.js",
+    "main.js.map": "/PhytoSim/static/js/main.dce572a8.chunk.js.map",
+    "runtime~main.js": "/PhytoSim/static/js/runtime~main.4886a0ed.js",
+    "runtime~main.js.map": "/PhytoSim/static/js/runtime~main.4886a0ed.js.map",
+    "static/js/2.fb50189b.chunk.js": "/PhytoSim/static/js/2.fb50189b.chunk.js",
+    "static/js/2.fb50189b.chunk.js.map": "/PhytoSim/static/js/2.fb50189b.chunk.js.map",
+    "index.html": "/PhytoSim/index.html",
+    "precache-manifest.f93f265bbc3d50415bedd5950d83cfa2.js": "/PhytoSim/precache-manifest.f93f265bbc3d50415bedd5950d83cfa2.js",
+    "service-worker.js": "/PhytoSim/service-worker.js",
+    "static/css/main.728e7f72.chunk.css.map": "/PhytoSim/static/css/main.728e7f72.chunk.css.map",
+    "static/media/bigFish.gif": "/PhytoSim/static/media/bigFish.f5ce90a9.gif",
+    "static/media/coral1.png": "/PhytoSim/static/media/coral1.cb9ae666.png",
+    "static/media/coral2.png": "/PhytoSim/static/media/coral2.d140374f.png",
+    "static/media/coral3.png": "/PhytoSim/static/media/coral3.6e54cd3d.png",
+    "static/media/coral4.png": "/PhytoSim/static/media/coral4.c8935064.png",
+    "static/media/ocean.mp3": "/PhytoSim/static/media/ocean.4d0dda6a.mp3",
+    "static/media/phyto1.png": "/PhytoSim/static/media/phyto1.df7a4afd.png",
+    "static/media/phyto3.png": "/PhytoSim/static/media/phyto3.5d1fcc80.png",
+    "static/media/phyto5.png": "/PhytoSim/static/media/phyto5.0b58d6b4.png",
+    "static/media/phyto6.png": "/PhytoSim/static/media/phyto6.85584fcd.png",
+    "static/media/phyto7.png": "/PhytoSim/static/media/phyto7.634c036f.png",
+    "static/media/s1.mp3": "/PhytoSim/static/media/s1.9577933c.mp3",
+    "static/media/s2.mp3": "/PhytoSim/static/media/s2.9c14bcbd.mp3",
+    "static/media/smallfish.gif": "/PhytoSim/static/media/smallfish.10114238.gif",
+    "static/media/zooplankton.png": "/PhytoSim/static/media/zooplankton.c37d3c2f.png"
+  }
+}
