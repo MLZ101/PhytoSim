@@ -1,0 +1,16 @@
+
+
+.bar-body{
+    position: relative;
+    width: 2vw;
+    height:10rem;
+    border:1px solid rgba(0, 0, 0, 0.534);
+    border-radius: 10px;
+    margin: 1vh;
+    right: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+

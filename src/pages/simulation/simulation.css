@@ -1,0 +1,187 @@
+
+* {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.above-surface {
+    position: relative;
+    height: 40vh;
+    background: #acd4e4;
+    z-index: 5;
+}
+
+.simulate-button{
+    position: absolute;
+    z-index: 999;
+    margin: 1rem;
+    padding: 1rem;
+    width: auto;
+    border: solid 2px;
+    border-radius: 1rem;
+    background-color: transparent;
+    font-size: x-large;
+    color:#101c27;
+    border-color: #101c27;
+    background-color: white;
+}
+
+.simulate-button:hover{
+    cursor: pointer;
+    color:white;
+    border-color: white;
+    background-color: #101c27;
+    
+}
+
+.surface {
+    background: url(../../assets/wave.png);
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 6;
+}
+
+.below-surface {
+    position: relative;
+    background: #6bb9f6;
+    background: linear-gradient(to bottom, #6bb9f6, #2e6691, #2a4961, #101c27);
+    height: auto;
+    padding: 2vw;
+}
+
+
+.bars{
+    position: fixed;
+    right: 0;
+    z-index: 999;
+}
+
+.plants-container{
+    display: flex;
+    justify-content: space-around;
+    bottom: 0%;
+}
+
+
+.water-level{
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+
+
+
+
+/* ------------- waves and their animations -------------- */
+
+#wave1{
+    animation: animate1 15s linear infinite;
+    animation-delay: -5s;
+}
+#wave2{
+    animation: animate1 30s linear infinite;
+    animation-delay: -2s;
+}
+#wave3{
+    animation: animate2 15s linear infinite;
+    animation-delay: -4s;
+    opacity: 0.8;
+}
+
+@keyframes animate1 {
+    0%{
+        background-position-x: 0;
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-position-x: 1080px;
+        opacity: 0.2;
+    }
+}
+@keyframes animate2 {
+    0%{
+        background-position-x: 1080px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+
+/* ------------- phytos, fish, zooplanktons and their animation -------------*/
+.phyto-img {
+    width: 2vw;
+    height: 2vh;
+}
+
+
+
+
+@keyframes animate3 {
+    0% {
+        transform: translate(4vw, 0) rotate(10deg);
+    }
+    20% {
+        transform: translate(-4vw, -4vh);
+    }
+    40% {
+        transform: translate(-4vw, 4vh) rotate(30deg);
+    }
+    60% {
+        transform: translate(4vw, -4vh);
+    }
+    80% {
+        transform: translate(4vw, 4vw) rotate(15deg);
+    }
+    100%{
+        transform: translate(4vw, 0) rotate(10deg);
+        
+    }
+}
+
+
+
+@keyframes animate4 {
+    0%{
+        transform: translate(20vw) ;
+    }
+
+    50%{
+        transform: translate(0, 0) rotateY(180deg) ;
+    }
+
+    100%{
+        transform: translate(20vw) ;
+    }
+
+}
+
+
+@keyframes animate5 {
+    0% { transform: translateX(1vw) rotate(0deg); }
+    10% { transform: rotate(0deg); }
+    25% { transform: rotate(12deg); }
+    30% { transform: rotate(-12deg); }
+    35% { transform: rotate(12deg); }
+    40% { transform: rotate(-12deg); }
+    45% { transform: rotate(12deg); }
+    50% { transform: rotate(-12deg); }
+    75% { transform: rotate(12deg) }
+    100% { transform: translateX(1vw) rotate(0deg); }
+  }
+  
