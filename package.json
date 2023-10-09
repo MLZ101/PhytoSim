@@ -1,8 +1,8 @@
 {
-  "homepage": "https://MLZ101.github.io/PhytoSimulator",
+  "homepage": "https://mlz101.github.io/PhytoSim",
   "name": "ocean-garden",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,12 +15,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
